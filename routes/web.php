@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index.blade.php');
+    return view('index');
 });
 
 require __DIR__.'/auth.php';
